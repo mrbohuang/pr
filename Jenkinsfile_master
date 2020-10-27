@@ -5,7 +5,7 @@ pipeline {
         stage ('mrbohuang_m') {
 
             steps {
-                sh 'echo "Jenkinsfile_master"'
+                sh 'echo "mrbh/pr: Jenkinsfile_master"'
             }
         }
     }
