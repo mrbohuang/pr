@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage ('mrbohuang_m') {
+
+            steps {
+                sh 'echo "Hello World MS"'
+            }
+        }
+    }
+}
