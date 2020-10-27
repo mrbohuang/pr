@@ -5,7 +5,7 @@ pipeline {
         stage ('mrbohuang_m') {
 
             steps {
-                sh 'echo "Hello World MS"'
+                sh 'echo "Jenkinsfile_master"'
             }
         }
     }
